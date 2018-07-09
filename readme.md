@@ -5,3 +5,7 @@ Then add the ability to go through and search these contact.
 Creat our own class for each different part of the address book program.
 
 Adress itself, contacts, and their information.
+
+Good example of Object oriented program.
+
+Domain modeling.
