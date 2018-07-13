@@ -10,6 +10,8 @@ class Contact
         @addresses = []
     end
 
+
+
     def add_phone_number(kind, number)
         phone_number = PhoneNumber.new
         phone_number.kind = kind
@@ -46,7 +48,7 @@ class Contact
         last_first += first_name
         if !@middle_name.nil?
             last_first += " "
-            last_first += middle_name(0, 1)
+            last_first += middle_name.slice(0, 1)
             last_first += "."
         end
         last_first
